@@ -1,0 +1,14 @@
+name: Build installers
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Build placeholder
+        run: echo "Workflow initialized successfully"
