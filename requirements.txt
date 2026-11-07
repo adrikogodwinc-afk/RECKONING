@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+websockets>=12.0
+cryptography>=42.0
+psutil>=5.9
+MetaTrader5>=5.0.45; sys_platform == "win32"
+pywin32>=306; sys_platform == "win32"
